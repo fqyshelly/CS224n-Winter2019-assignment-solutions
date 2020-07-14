@@ -11,10 +11,10 @@ Reference paper:
 https://nlp.stanford.edu/pubs/emnlp2014-depparser.pdf
 
 #### Assignment 4:
-LSTM neural machine translatioin with multihead attention.
-Original paper:
-https://arxiv.org/abs/1508.04025
+LSTM neural machine translatioin with multihead attention.  
+Original paper:  
+https://arxiv.org/abs/1508.04025  
 
 #### Assignment 5:
-Char-level NMT
+Char-level NMT  
 (based on assignment4, added character encoding and embedding with CNN and highway network, and greedy decoding module.)
