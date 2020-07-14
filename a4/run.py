@@ -139,7 +139,10 @@ def train(args: Dict):
     vocab_mask[vocab.tgt['<pad>']] = 0
 
     device = torch.device("cuda:0" if args['--cuda'] else "cpu")
+<<<<<<< HEAD
     #device = torch.device("cuda:0" if torch.cuda.is_available else "cpu")
+=======
+>>>>>>> 3645d0e271f59296641dacf9b856000af9fad8bf
     print('use device: %s' % device, file=sys.stderr)
 
     model = model.to(device)
@@ -323,7 +326,11 @@ def main():
     args = docopt(__doc__)
 
     # Check pytorch version
+<<<<<<< HEAD
     #assert(torch.__version__ == "1.0.0"), "Please update your installation of PyTorch. You have {} and you should have version 1.0.0".format(torch.__version__)
+=======
+    assert(torch.__version__ == "1.0.0"), "Please update your installation of PyTorch. You have {} and you should have version 1.0.0".format(torch.__version__)
+>>>>>>> 3645d0e271f59296641dacf9b856000af9fad8bf
 
     # seed the random number generators
     seed = int(args['--seed'])

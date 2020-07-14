@@ -194,7 +194,11 @@ def main():
 
     # Check Python & PyTorch Versions
     assert (sys.version_info >= (3, 5)), "Please update your installation of Python to version >= 3.5"
+<<<<<<< HEAD
     #assert(torch.__version__ == "1.0.0"), "Please update your installation of PyTorch. You have {} and you should have version 1.0.0".format(torch.__version__)
+=======
+    assert(torch.__version__ == "1.0.0"), "Please update your installation of PyTorch. You have {} and you should have version 1.0.0".format(torch.__version__)
+>>>>>>> 3645d0e271f59296641dacf9b856000af9fad8bf
 
     # Seed the Random Number Generators
     seed = 1234
