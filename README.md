@@ -6,8 +6,8 @@ This is my solution for CS224N assignments.
 Word2vec with numpy.
 
 #### Assignment 3:
-A neural dependency parser with pytorch.
-Reference paper:
+A neural dependency parser with pytorch.  
+Reference paper:  
 https://nlp.stanford.edu/pubs/emnlp2014-depparser.pdf
 
 #### Assignment 4:
